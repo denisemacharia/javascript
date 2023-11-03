@@ -14,8 +14,21 @@
     <h2 id="heading"></h2><br>
 <button class="btn btn-outline-success" onclick="display()">Click Me</button>&nbsp;&nbsp;&nbsp;&nbsp;
 <button class="btn btn-warning" onclick="hide()">Hide Text</button>
+<br> <br> <hr>
+    <div class="row">
+        <div class="col-sm-4 offset-2">
+            <h2>Trial form</h2>
+            <input class="form-control" type="text" id="fname" placeholder="First Name"> <br>
+            <input class="form-control" type="text" id="lname" placeholder="Second Name"> <br>
 
-
+            <button class="btn btn-outline-success form-control" onclick="read()">Submit</button>
+        </div>
+        <div class="col-sm-4 offset-2">
+            <h2>Form Values</h2>
+            <h3>First Name: <span id="fnamevalue"></span></h3>
+            <h3>Second Name: <span id="lnamevalue"></span></h3>           
+        </div>
+    </div>
 
 </body>
 </html>
